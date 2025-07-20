@@ -7,4 +7,11 @@ This course introduces efficient AI computing techniques that enable powerful de
 - Implement and apply fine-grained pruning
 - Implement and apply channel pruning
 - Performance improvement (such as speedup) from pruning
-- Understand the differences and tradeoffs between these pruning approaches
+- Understand the differences and tradeoffs between these pruning approaches  
+## Lab 2 - Quantization
+- Understand the basic concept of **quantization**
+- Implement and apply **k-means quantization**
+- Implement and apply **quantization-aware training** for k-means quantization
+- Implement and apply **linear quantization**
+- Implement and apply **integer-only inference** for linear quantization
+- Get a basic understanding of performance improvement (such as speedup) from quantization
