@@ -15,3 +15,12 @@ This course introduces efficient AI computing techniques that enable powerful de
 - Implement and apply **linear quantization**
 - Implement and apply **integer-only inference** for linear quantization
 - Get a basic understanding of performance improvement (such as speedup) from quantization
+
+## Lab 3 - Neural Architecture Search
+
+[Once for All](https://arxiv.org/abs/1908.09791) (OFA), a method that can greatly reduce the cost of specialize NN architectures for different devices. OFA trains a large **super network** that contains all **sub-networks** within the design space. If we directly extract the sub-networks from the super network, they can achieve similar-level of accuracy compared with training from scratch. As such, OFA supports direct deployment with **no retrain**.
+- Understand the basic concepts of NAS OFA
+- Implementing Efficiency & Accuracy predictor
+- Understand and implement the Random search agent depending on the peak memory and MAC
+- Understand and implement the Evolutionary agent depending on the peak memory and MAC
+- Tuning the hyperparameters to optimize the performance under real world contraints such as peak activation.
